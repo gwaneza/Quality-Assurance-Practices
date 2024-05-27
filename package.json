@@ -1,11 +1,15 @@
 {
   "name": "quality-assurance-practices",
   "version": "1.0.0",
-  "description": "",
+  "description": "tests",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "show-report": "npx playwright show-report"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Rosine",
   "license": "ISC",
   "dependencies": {
     "playwright": "^1.44.1"
@@ -13,5 +17,13 @@
   "devDependencies": {
     "@playwright/test": "^1.44.1",
     "@types/node": "^20.12.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwaneza/Quality-Assurance-Practices.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gwaneza/Quality-Assurance-Practices/issues"
+  },
+  "homepage": "https://github.com/gwaneza/Quality-Assurance-Practices#readme"
 }
